@@ -28,8 +28,8 @@ function handleYesClick() {
 }
 
 function sendTelegramMessage(message) {
-    let botToken = "7786881909:AAG9yEAModmiqvMRO6LCGKrFPzj9lB6zM5k";  // Replace with your actual bot token
-    let chatID = "1202104387";  // Replace with your actual chat ID
+    let botToken = "8348728826:AAEpLwaIdDjJrBxyNdJGVnk4Hc2Xc9JdPDs";  // Replace with your actual bot token
+    let chatID = "7577638711";  // Replace with your actual chat ID
 
     fetch(`https://api.telegram.org/bot${botToken}/sendMessage?chat_id=${chatID}&text=${message}`)
       .then(response => response.json())
